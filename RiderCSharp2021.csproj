@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{32F0A2CE-10E2-4899-BB6A-B99859F84964}</ProjectGuid>
+        <OutputType>Exe</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>RiderCSharp2021</RootNamespace>
+        <AssemblyName>RiderCSharp2021</AssemblyName>
+        <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="C12_Package.cs" />
+        <Compile Include="C12_Package2.cs" />
+        <Compile Include="C12_Package3.cs" />
+        <Compile Include="C13_Method1.cs" />
+        <Compile Include="C13_Method2.cs" />
+        <Compile Include="C13_Method3Recursion.cs" />
+        <Compile Include="C13_Method4TranValue.cs" />
+        <Compile Include="C13_Method5TranRefValue.cs" />
+        <Compile Include="C13_Method6OutValue.cs" />
+        <Compile Include="C14_Nullable1.cs" />
+        <Compile Include="C14_Nullable2.cs" />
+        <Compile Include="C15_Array1.cs" />
+        <Compile Include="C15_Array2foreach.cs" />
+        <Compile Include="C16_String1.cs" />
+        <Compile Include="C16_String2Methods.cs" />
+        <Compile Include="C17_Struct1Define.cs" />
+        <Compile Include="C17_Struct2ClassVSStruct.cs" />
+        <Compile Include="C18_Enum.cs" />
+        <Compile Include="C18_Enum2Accumulate.cs" />
+        <Compile Include="C19_Class1Value.cs" />
+        <Compile Include="C19_Class2Package.cs" />
+        <Compile Include="C19_Class3Constructor.cs" />
+        <Compile Include="C19_Class4Destructor.cs" />
+        <Compile Include="C19_Class5Static1.cs" />
+        <Compile Include="C19_Class5Static2.cs" />
+        <Compile Include="C20_Heriatge3Multiple.cs" />
+        <Compile Include="C20_Heritage1Use.cs" />
+        <Compile Include="C20_Heritage2Initialize.cs" />
+        <Compile Include="C21_Polomorphsim3Virtual.cs" />
+        <Compile Include="C21_Polymorphism1Function.cs" />
+        <Compile Include="C21_Polymorphism1Print.cs" />
+        <Compile Include="C21_Polymorphism2abstract.cs" />
+        <Compile Include="C22_Overload1.cs" />
+        <Compile Include="C22_Overload2More.cs" />
+        <Compile Include="C23_Interface1.cs" />
+        <Compile Include="C23_Interface2Heritage.cs" />
+        <Compile Include="C24_NameSpace1.cs" />
+        <Compile Include="C25_Preprocessor1define.cs" />
+        <Compile Include="C26_Regex1space.cs" />
+        <Compile Include="C27_Exception1.cs" />
+        <Compile Include="C32_Indexer1.cs" />
+        <Compile Include="C33_Delegate1use.cs" />
+        <Compile Include="C37_Anonymous1useDelegateMethosd.cs" />
+        <Compile Include="C38_UnsafeCode1pointer.cs" />
+        <Compile Include="C39_Threading1create.cs" />
+        <Compile Include="C6_TypeTransform1.cs" />
+        <Compile Include="ConstTest.cs" />
+        <Compile Include="Program.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Space.cs" />
+        <Compile Include="TestCreateClass.cs" />
+        <Compile Include="TestStatements.cs" />
+        <Compile Include="TypeConversionString.cs" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>

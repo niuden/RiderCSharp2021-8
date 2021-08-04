@@ -1,0 +1,12 @@
+E:\CSharpRiderProjects\RiderCSharp2021\RiderCSharp2021\bin\Debug\RiderCSharp2021.exe
+E:\CSharpRiderProjects\RiderCSharp2021\RiderCSharp2021\bin\Debug\RiderCSharp2021.pdb
+E:\CSharpRiderProjects\RiderCSharp2021\RiderCSharp2021\obj\Debug\RiderCSharp2021.csprojAssemblyReference.cache
+E:\CSharpRiderProjects\RiderCSharp2021\RiderCSharp2021\obj\Debug\RiderCSharp2021.csproj.CoreCompileInputs.cache
+E:\CSharpRiderProjects\RiderCSharp2021\RiderCSharp2021\obj\Debug\RiderCSharp2021.exe
+E:\CSharpRiderProjects\RiderCSharp2021\RiderCSharp2021\obj\Debug\RiderCSharp2021.pdb
+E:\RiderProject2021\RiderCSharp2021\bin\Debug\RiderCSharp2021.exe
+E:\RiderProject2021\RiderCSharp2021\bin\Debug\RiderCSharp2021.pdb
+E:\RiderProject2021\RiderCSharp2021\obj\Debug\RiderCSharp2021.csproj.AssemblyReference.cache
+E:\RiderProject2021\RiderCSharp2021\obj\Debug\RiderCSharp2021.csproj.CoreCompileInputs.cache
+E:\RiderProject2021\RiderCSharp2021\obj\Debug\RiderCSharp2021.exe
+E:\RiderProject2021\RiderCSharp2021\obj\Debug\RiderCSharp2021.pdb
