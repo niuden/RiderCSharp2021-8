@@ -6,7 +6,7 @@ namespace RiderCSharp2021
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
             
             //20-1
             // C20_Heritage1Use h1 = new C20_Heritage1Use();
@@ -89,8 +89,12 @@ namespace RiderCSharp2021
             // ctc.show();
             
             // C6_1
-            C6_TypeTransform1 ttf = new C6_TypeTransform1();
-            ttf.show();
+            // C6_TypeTransform1 ttf = new C6_TypeTransform1();
+            // ttf.show();
+            
+            // C20-4
+            C20_Heritage4Polymorphism hp = new C20_Heritage4Polymorphism();
+            hp.show();
 
         }
         
