@@ -66,6 +66,7 @@
         <Compile Include="C20_Heriatge3Multiple.cs" />
         <Compile Include="C20_Heritage1Use.cs" />
         <Compile Include="C20_Heritage2Initialize.cs" />
+        <Compile Include="C20_Heritage4Polymorphism.cs" />
         <Compile Include="C21_Polomorphsim3Virtual.cs" />
         <Compile Include="C21_Polymorphism1Function.cs" />
         <Compile Include="C21_Polymorphism1Print.cs" />
